@@ -1,6 +1,6 @@
 <?php
 
-namespace Dravencms\FrontModule\Components\Social\Icon;
+namespace Dravencms\FrontModule\Components\Social\Icon\Bar;
 
 use Dravencms\Components\BaseControl;
 use Salamek\Cms\ICmsActionOption;

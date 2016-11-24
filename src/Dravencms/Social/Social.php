@@ -1,13 +1,13 @@
 <?php
 
-namespace Dravencms\Primitive;
+namespace Dravencms\Social;
 
 
 /**
- * Class Primitive
- * @package Dravencms\Primitive
+ * Class Social
+ * @package Dravencms\Social
  */
-class Primitive extends \Nette\Object
+class Social extends \Nette\Object
 {
     public function __construct()
     {
