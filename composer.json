@@ -1,6 +1,6 @@
 {
   "name": "dravencms/social",
-  "type": "library",
+  "type": "dravencms-package",
   "description": "Social module for dravencms",
   "keywords": [
     "dravencms",
@@ -22,6 +22,19 @@
   "autoload": {
     "psr-0": {
       "Dravencms\\": "src/"
+    }
+  },
+  "extra": {
+    "dravencms": {
+      "configuration": {
+        "extensions": {
+          "timeline": "Dravencms\\Social\\DI\\SocialExtension"
+        }
+      },
+      "scripts": {
+        "post-install": "Dravencms\\Social\\Script\\PostInstall",
+        "pre-uninstall": "Dravencms\\Social\\Script\\PreUninstall"
+      }
     }
   }
 }
