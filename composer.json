@@ -28,7 +28,7 @@
     "dravencms": {
       "configuration": {
         "extensions": {
-          "timeline": "Dravencms\\Social\\DI\\SocialExtension"
+          "social": "Dravencms\\Social\\DI\\SocialExtension"
         }
       },
       "scripts": {
