@@ -26,6 +26,5 @@ class PostInstall implements IScript
 
     public function run(IPackage $package)
     {
-
     }
 }
